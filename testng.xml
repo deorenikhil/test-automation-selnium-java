@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+  
+ <parameter name="appURL" value="https://www.google.co.in/"/>
+<parameter name="browserType" value="firefox"/>
+  <test name="example">
+    <classes>
+      <class name="com.juniper.support.technologies.test.SignInPageTest"/>
+    </classes>
+  </test>
+</suite>
